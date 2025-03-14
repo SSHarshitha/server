@@ -28,10 +28,10 @@ dns.setServers(['8.8.8.8', '8.8.4.4']); // Google DNS
 
  const ITEMS_PER_PAGE = 10;
 
- admin.initializeApp({
-    credential: admin.credential.cert(serviceAccountKey)
+// admin.initializeApp({
+  //  credential: admin.credential.cert(serviceAccountKey)
 
- });
+// });
 
  let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; // regex for email
 let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/; // regex for password
