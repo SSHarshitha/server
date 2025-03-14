@@ -8,7 +8,7 @@ import { nanoid } from 'nanoid';
 import jwt from 'jsonwebtoken';
 import cors from 'cors';
 import admin from "firebase-admin";
-import serviceAccountKey from "./react-js-blog-website-d77e5-firebase-adminsdk-fjers-c3aa403e5d.json" assert { type: "json" }
+//import serviceAccountKey from "./react-js-blog-website-d77e5-firebase-adminsdk-fjers-c3aa403e5d.json" assert { type: "json" }
 import {getAuth, UserRecord} from "firebase-admin/auth"
 import dns from 'dns';
 import multer from 'multer';
