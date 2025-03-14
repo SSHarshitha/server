@@ -38,7 +38,7 @@ let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/; // regex for pass
  server.use(express.json());
  server.use(cors({
 origin: 'https://frontend-kn2qltiv8-harshithas-projects-90df70de.vercel.app/', // Replace with your frontend URL
-   credentials: true, // Allow cookies }))
+   credentials: true,}));
 
  
  mongoose.connect(process.env.DB_LOCATION, {autoIndex: true})
